@@ -1,0 +1,133 @@
+.base {
+	width: 200px;
+	height: 300px;
+	background-color: #ffc929; /*yello*/
+	border-radius: 100px;
+	transform: translate(50px, 50px);
+}
+.glasses_outer {
+	width: 95px;
+	height: 95px;
+	background-color: #e0e0e1;
+	border-radius: 50px;
+}
+.glasses_outer_left {
+	transform: translate(10px,50px);
+}
+.glasses_outer_right {
+	transform: translate(85px,-70px);
+}
+.glasses_inner {
+	width: 70px;
+	height: 70px;
+	background-color: #f4b541;
+	border-radius: 35px;
+}
+.glasses_inner_left {
+	transform: translate(12px,12px);
+}
+.glasses_inner_right {
+	transform: translate(12px,12px);
+}
+.eye {
+	width: 70px;
+	height: 50px;
+	background-color: white;
+	border-radius: 35px;
+}
+.eye_left {
+	transform: translate(0px,10px);
+}
+.eye_inner {
+	width: 20px;
+	height: 20px;
+	background-color:#794044;
+	border-radius: 10px;
+}
+.eye_inner_left {
+	transform: translate(30px,20px);
+}
+.eye_inner_right {
+	transform: translate(20px,20px);
+}
+.mouth {
+	width: 90px;
+	height: 60px;
+	background-color: #794044; /*dark brown*/
+	border-radius: 35px;
+	transform: translate(45px,-70px);
+}
+.mouth_inner {
+	width: 110px;
+	height: 40px;
+	background-color: #ffc929; /*yello*/
+	border-radius: 35px;
+	transform: translate(-10px,0px);
+}
+.arm {
+	width: 20px;
+	height: 120px;
+	background-color: #794044; /*dark brown*/
+	border-radius: 10px;	
+	transform: translate(-30px,-100px);
+}
+.arm_left {
+	/*transform: translate(-30px,-50px);*/
+}
+.arm_right {
+	transform: translate(190px,-220px);
+}
+.hand {
+	width: 30px;
+	height: 30px;
+	background-color: #cbbeb5;
+	border-radius: 20px;
+	transform: translate(-5px,100px);
+}
+.pants_bottom {
+	width: 200px;
+	height: 120px;
+	background-color: #0d3653; /*dark blue*/
+	border-radius: 50px;
+	transform: translate(-10px,-290px);
+}
+.pants_block {
+	width: 200px;
+	height: 70px;
+	background-color: #ffc929; /*yellow*/
+	transform: translate(0px,-20px);
+}
+.pants_inner {
+	width: 120px;
+	height: 45px;
+	background-color: #0d3653; /*dark blue*/
+	transform: translate(40px,25px);
+}
+.pants_strap {
+	width: 15px;
+	height: 70px;
+	background-color: #0d3653; /*dark blue*/
+}
+.pants_strap_left {
+	transform: translate(-25px,-45px) rotate(-60deg);
+}
+.pants_strap_right {
+	transform: translate(130px,-115px) rotate(60deg);
+}
+.pants_leg {
+	width: 35px;
+	height: 30px;
+	background-color: #0d3653; /*dark blue*/
+}
+.pants_leg_left {
+	transform: translate(20px,-27px);
+}
+.pants_leg_right {
+	transform: translate(70px,-57px);
+}
+
+
+
+
+
+
