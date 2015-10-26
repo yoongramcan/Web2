@@ -3,65 +3,51 @@
 <head>
   <meta charset="utf-8" />
   <title>Coffee Machine</title>
-  <link href="coffee_machine.css" rel="stylesheet" media="all" />
+  <link type='text/css' rel="stylesheet" href="coffee_machine.css" media="all" />
+  <script src='https://code.jquery.com/jquery-1.11.2.js'></script>
 </head>
 
 <body>
-	<div class="base">
+	<div id="cover">
+		<div id="filtertop"></div><!--#filtertop-->
+		<div id="filterbottom"></div><!--#filterbottom-->
+		<div id="middletop_section">
+			<div class="welcome black"><h5>Welcome</h5></div><!--.welcome .black-->
+			<div class="logo"><p>Pink Coffee<p></div><!-- .logo-->
+		</div><!--#middletop_section-->
 		
-		<div class="toppart">
-			<div class="cover">
-			</div><!-- .cover-->
-			
-			<div id="left_section">
-				<div class="filtertop">
-					<div class="filterbottom"></div><!-- .filterbottom-->
-				</div><!-- .filtertop-->
-			</div><!-- #left_section-->
-					
-			<div id="middle_section">
-				<div class="machinegagegage_bg"></div><!-- .machinegagegage_bg-->
-				<div class="logo"><p>Pink Coffee<p></div><!-- .logo-->
-				<div class="machine_insert">
-					<div class="machine_insert_inside">
-						<div class="pour_coffee"></div>
-					</div><!-- .machine_insert_inside-->
-				</div><!-- .machine_insert-->
-			</div><!-- #middle_section-->
-					
-			<div id="right_section">
-				<div class="timer_bg">
-					<div class="time_bg">
-						<div class="timer">10:20</div><!-- .timer-->
-					</div><!-- .time_bg-->
-					<div class="timebutton_left">HR</div><!-- .timebutton_left-->
-					<div class="timebutton_right">MIN</div><!-- .-->
-					<div class="controller">
-						<div class="active_light light_1"><p>Auto On</p></div>
-					</div><!-- .controller-->
-					<div class="cleanbutton_bg">
-						<div class="cleanbutton_left">
-							<div class="active_light light_2"></div>
-						</div><!-- .cleanbutton_left-->
-						<div class="cleanbutton_right">
-							<div class="active_light light_3"></div>
-						</div><!-- .cleanbutton_right-->
-					</div><!-- .cleanbutton_bg-->
-					<div class="onoff_button">
-						<div class="active_light light_4"></div>
-						<p>On / Off</p>
-					</div><!-- .onoff_button-->
-				</div><!-- .timer_bg-->
-			</div><!-- #right_section-->
-			
-		</div><!-- .toppart-->		
+		<div id="right_section">
+			<div class="timer_bg">
+				<div class="time_bg">
+					<div class="timer">10:20</div><!-- .timer-->
+				</div><!--#time_bg-->
+				<div class="timebutton button_left">HR</div><!--.timebutton .button_left-->
+				<div class="timebutton button_right">MIN</div><!--.timebutton .button_right-->
+			</div><!--#timer_bg-->
+			<div class="controller"></div><!--.controller-->	
+			<div class="button btn_1">
+				<div class="light light_1"></div><!--.light .green-->
+				<p>CLEAN</p>
+			</div><!--.button-->
+			<div class="button btn_2">
+				<div class="light light_2"></div><!--.light .green-->
+				<p>On / Off</p>
+			</div><!--.button-->
+		</div><!--#right_section-->
 		
-				
-		<div class="bottompart">
-			<div class="cup">
-				<div class="coffee"></div><!-- .coffee-->
-			</div><!-- .cup-->
-		</div><!-- .bottompart-->
+		<div id="bottompart">
+			<div class="machine_insert">
+				<div class="machine_insert_inside">
+					<div class="coffee">
+						<div class="stroke stroke1"></div>
+						<div class="stroke stroke2"></div>
+						<div class="stroke stroke3"></div>
+					</div><!--.coffee-->
+				</div><!--.machine_insert_inside-->
+			</div><!-- .machine_insert-->
+			<div class="cup cup_out"></div><!--.cup .cup_out-->
+		</div><!-- .bottompart-->	
+	</div><!--#cover-->
 		
-   </div><!-- .base-->
+	<script src="coffee_machine.js"></script>
 </body>
