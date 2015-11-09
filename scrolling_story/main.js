@@ -9,3 +9,7 @@ $(".quote").on("arrived",function() {
 $(".text_block").on("arrived",function() {
   $(this).addClass("text-block-arrived");
 });
+
+var video = $("#underwater")[0];
+video.currentTime=10
+video.play()

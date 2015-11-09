@@ -22,9 +22,16 @@ h6 {
 	min-height: 100vh;
 	position: relative;
 }
+#underwater {
+	top:0;
+	left:0;
+	width: 150%;
+	height: 150%;
+	position: absolute;
+}
 #page1 {
-	background-color: none;
-	background-image: url("assets/underwater.jpg");
+	height:100vh;
+	overflow:hidden;
 }
 #page2 {
 	background-color: #2CC0C4; /*blue*/ /*#f26c4f orange* #42c9ae green*/
