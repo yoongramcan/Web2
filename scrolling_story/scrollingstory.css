@@ -1,0 +1,95 @@
+
+/**  RESET
+----------------------*/
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	padding: 50px;
+	background-color: #ffffff;
+	font-family: 'Raleway', Arial, sans-serif;
+	color: #757575;
+	margin: 0px;
+}
+h6 {
+	font-size: 0.3em;
+	font-weight: thin;
+	font-style: italic;
+	text-align: right;
+}
+.page {
+	min-height: 100vh;
+	position: relative;
+}
+#page1 {
+	background-color: none;
+	background-image: url("assets/underwater.jpg");
+}
+#page2 {
+	background-color: #2CC0C4; /*blue*/ /*#f26c4f orange* #42c9ae green*/
+}
+#page3 {
+	background-color: white;
+}
+#page4 {
+	background-color: white;
+}
+#page5 {
+	background-color: white;
+}
+#page6 {
+	background-color: gray;
+}
+.title {
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-80%, -80%);
+	color: white;
+	text-transform: uppercase;
+	font-size: 40px;
+	opacity: 0;
+}
+.parallax-image {
+	background-size:cover;
+	background-position:50% 50%;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	width:100%;
+	height:100vh;
+}
+.text-block {
+	position:relative;
+	width:480px;
+	font-size:15px;
+	padding:70px;
+	/*text-align: justify;*/
+	line-height:1.5em;;
+}
+.text-block-arrived {
+	transform: translate(0,0);
+}
+.quote {
+	width:80%;
+	margin:0 auto;
+	padding:150px;
+	font-size:75px;
+	color: black;
+	font-weight: bold;
+	/*line-height:1.5em;
+	text-align: center;*/
+	opacity: 0;
+	position:relative;
+}
+.arrived {
+	transition: 5s ease;
+	opacity: 1;
+}
+.map {
+	position: absolute;
+	left: 350px;
+}
+
+
+
