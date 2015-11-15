@@ -201,7 +201,11 @@ h6 {
 
 .map {
 	position: absolute;
-	left: 350px;
+	left: 450px;
+}
+.map img {
+	width: 50%;
+	height: 50%;
 }
 .map-enlarge {
 	transform: scale(3,3);
