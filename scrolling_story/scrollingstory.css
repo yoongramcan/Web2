@@ -61,16 +61,25 @@ body {
 	margin: 0px;
 }
 h1 {
+	font-size: 7em; /*1.5em*/
+	font-weight: 400;
+	letter-spacing: 10px;
+}
+h2 {
+	margin-top: 10px;
+	letter-spacing: 10px;
+	text-align: center;
+}
+h3 {
 	font-size: 2.5em;
-	/*font-size: 3em;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 100;*/
+	font-weight: 100;
+	line-height: 1.2em;
 }
 h6 {
-	margin-top: 1em;
+	margin-top: 30px;
 	font-size: 0.3em;
 	font-style: italic;
+	font-weight: 100;
 	text-align: right;
 }
 .page {
@@ -89,39 +98,50 @@ h6 {
 	
 }
 #page1 {
-	height:100vh;
-	overflow:hidden;
+	height: 100vh;
+	overflow: hidden;
 }
 #page2 {
-	background-color: #2CC0C4; /*blue*/ /*#f26c4f orange* #42c9ae green*/
+	background-color: none;
 }
 #page3 {
-	background-color: none;
+	background-color: #2CC0C4; /*blue*/ /*#f26c4f orange* #42c9ae green*/
 }
 #page4 {
-	background-color: none;
+	background-color: ;
 }
 #page5 {
-	background-color: none;
+	background-color: ;
 }
 #page6 {
-	background-color: none;
+	/*width: 50%;*/
+	padding: 30px;
+	background-color: #f26c4f; /*orange*/
+}
+#page6 h3 {
+	color: white;
+	font-weight: 100;
 }
 #page7 {
 	background-color: none;
 }
-#page8 {
-	background-color: none;
+#page11 {
+	background-color: #333;
+}
+#page11 p {
+	color: #ace7e8; /*light-blue*/
+	font-weight: 100;
+	font-size: 1em;
+	line-height: 1.5em;
 }
 .title {
-	position:absolute;
-	left:50%;
-	top:65%;
-	transform: translate(-80%, -80%);
 	color: white;
 	text-transform: uppercase;
-	font-size: 40px;
 	opacity: 0;
+	position:absolute;
+	left:16%;
+	top: 40%;
+	/*transform: translate(-80%, -80%);*/
 }
 .parallax-image {
 	background-size:cover;
@@ -136,7 +156,7 @@ h6 {
 .quote {
 	width:80%;
 	margin:0 auto;
-	padding:150px;
+	padding:140px;
 	font-size:75px;
 	color: black;
 	font-weight: bold;
@@ -165,7 +185,7 @@ h6 {
 	line-height: 1.5em;
 	opacity: 0;
 	position: relative;
-	transform: translate(-20%,0);
+	transform: translate(-30%,0);
 }
 .text-block-3 {
 	width: 480px;
@@ -175,7 +195,22 @@ h6 {
 	opacity: 0;
 	position: relative;
 	left: 550px;
-	transform: translate(20%,0);
+	transform: translate(30%,0);
+}
+.text-block-4 {
+	width: 70%;
+	padding: 140px;
+	position: relative;
+	top: 60px;
+	opacity: 0;
+	transform: translate(0,30%);
+}
+.text-block-5 {
+	width: 50%;
+	margin: 0 auto;
+	padding: 140px;
+	opacity: 1;
+	transform: translate(0,-30%);
 }
 .text-block-arriving {
 	transition: 2s ease;
@@ -199,16 +234,47 @@ h6 {
 }*/
 
 
+
+
+
+
+
+@-webkit-keyframes road-move {
+  0% { -webkit-transform: translate(0,0); }
+  100% { -webkit-transform: translate(400px, 0); }
+}
+.road {
+	width: 100px;
+	height: 10px;
+	background-color: gray;
+	position: absolute;
+	top: 20px;
+	left: 0;
+	-webkit-animation:road-move 3s linear infinite;
+}
+
+
+
+
+
+
+
+
 .map {
 	position: absolute;
-	left: 450px;
+	transform: translate(40%,20%);
 }
 .map img {
-	width: 50%;
-	height: 50%;
+	width: 70%;
+	height: 0%;
 }
 .map-enlarge {
 	transform: scale(3,3);
 }
+
+
+
+
+
 
 

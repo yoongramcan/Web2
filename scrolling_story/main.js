@@ -45,7 +45,17 @@ video.play()
     $(this).addClass("text-block-rearriving");
 	});
 
-
+//Text Block 4
+   $(".text-block-4").on("arriving", function(e) {
+    $(this).addClass("text-block-arriving");
+	});
+	
+//Text Block 5
+   $(".text-block-5").on("arriving", function(e) {
+    $(this).addClass("text-block-arriving");
+	});
+	
+	
 
 
 //Map
