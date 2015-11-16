@@ -2,7 +2,9 @@ $(".scroller").scrollFlight();
 
 var video = $("#underwater")[0];
 video.currentTime=10
+video.playbackRate = 0.4;
 video.play()
+
 
 	$(".title").on("arrived",function() {
 	  $(this).addClass("arrived");
@@ -59,8 +61,10 @@ video.play()
 
 
 //Map
-   $(".map").on("arriving", function(e) {
-    $(this).addClass("map-enlarge");
+	$("#page5").scrollFlight();
+	$("#page5").on("update",function(e, size) {
+	   console.log(size);
+	  $(".map").css({transform: "scale(" + (1 + size / 1) + ")" });
 	});
 	
 	
