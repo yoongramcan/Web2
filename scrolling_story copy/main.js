@@ -2,7 +2,7 @@ $(".scroller").scrollFlight();
 
 var video = $("#underwater")[0];
 video.currentTime=10
-//video.playbackRate = 0.4;
+video.playbackRate = 0.4;
 video.play()
 
 
