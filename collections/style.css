@@ -1,0 +1,146 @@
+/**  RESET
+----------------------*/
+* {
+	margin:0;
+	padding:0;
+}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+/*----------END RESET----------*/
+
+body {
+	padding: 50px;
+	background-color: #222222;
+	color: white;
+}
+header {
+	margin-bottom: 30px;
+	font-family: sans-serif;
+}
+.title {
+	width: 30%;
+	font-size: 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+	float: left;
+}
+nav {
+	float: left;
+}
+ul {
+	margin: 0;
+  padding: 15px 4px 17px 0;
+  text-align: left;
+  display: inline;
+  list-style: none;
+}
+ul li {
+	margin-right: -4px;
+	padding: 15px 20px;
+	font-size: 0.9em;
+	font-weight: 100;
+	color: gray;
+	text-transform: capitalize;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+ul li:hover {
+  color: #fff;
+}
+ul li ul {
+	width: 150px;
+  padding: 0;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+	position: absolute;
+  top: 48px;
+  left: 0;
+}
+ul li ul li {
+	display: block;
+  background: #555;
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+}
+ul li ul li:hover { background: #666; }
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+.search input{
+	font-size: 0.9em;
+	border-radius: 2px;
+  border: none;
+  padding: 5px;
+}
+.wrapper {
+	width: 95%;
+	height: 1000px;
+	margin: 0 auto;
+	background-color: white;
+}
+.box {
+	width: 21.9%;
+	margin: 15px;
+	border: 1px solid gray;
+	color: #444444;
+	float: left;
+}
+.box img {
+	width: 100%;
+	height:100%;
+}
+.titleBox {
+	padding: 15px;
+	background-color: white;
+}
+.clear {
+	clear: both;
+}
