@@ -133,7 +133,6 @@ ul li:hover ul {
 	width: 21.9%;
 	margin: 15px;
 	border: 1px solid gray;
-	color: #444444;
 	float: left;
 }
 .box img {
@@ -143,6 +142,9 @@ ul li:hover ul {
 .titleBox {
 	padding: 15px;
 	background-color: white;
+	font-family: sans-serif;
+	font-size: 0.8em;
+	color: #444444;
 }
 .clear {
 	clear: both;
