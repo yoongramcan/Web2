@@ -118,12 +118,6 @@ ul li:hover ul {
   	opacity: 1;
   	visibility: visible;
 }
-.search input{
-	font-size: 0.9em;
-	border-radius: 2px;
-  	border: none;
-  	padding: 5px;
-}
 .wrapper {
 	width: 95%;
 	margin: 0 auto;
@@ -146,6 +140,44 @@ ul li:hover ul {
 	font-size: 0.8em;
 	color: #444444;
 }
+/*-------------Modal/Pop up box---------------*/
+.overlay {
+  position:fixed;
+  height:100%;
+  width:100%;
+  left:0;
+  top:0;
+  background-color:rgba(0,0,0,0.7);
+  z-index: 3;
+  display:none;
+}
+.modal {
+  width: 400px;
+  position: fixed;
+  top: 5%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  background-color:white;
+  padding:10px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+  border-radius:10px;
+  z-index:4;
+  display:none;
+  max-height:90%;
+  overflow:auto;
+  color:red;
+}
+.modal img { width:400px; height:600px; }
+#search {
+	font-size: 0.9em;
+	border-radius: 2px;
+  	border: none;
+  	padding: 5px;
+}
+
+
+
 .clear {
 	clear: both;
 }

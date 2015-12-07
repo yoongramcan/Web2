@@ -1,4 +1,4 @@
-//Model or the popup box with details)//
+//Modal or the popup box with details)//
 //show model with overlay
 function showModal(item) {
    $(".modal").empty();

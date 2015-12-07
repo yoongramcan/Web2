@@ -16,9 +16,9 @@
   <h1 class="title">My favourite movies</h1>
   <nav>
     <ul>
-      <li>all</li>
+      <li id="all">all</li>
       <li>genre
-        <ul>
+        <ul id="genre">
           <li>action</li>
           <li>comedy</li>
           <li>epic</li>
@@ -36,7 +36,7 @@
         </ul>
       </li>
       <li>year
-        <ul>
+        <ul id="year">
           <li>1995</li>
           <li>1996</li>
           <li>1997</li>
@@ -60,10 +60,8 @@
         </ul>
       </li>
       <li>
-        <form class="search">
-          <input type="text" placeholder="Search">
-        </form>
-  </li>
+        <input type="text" placeholder="Search" id="search">
+  		</li>
     </ul>
   </nav>
 
@@ -73,9 +71,10 @@
 
 <section class="wrapper">
   <div class="boxwrapper">
-	
   </div> 
 
+  <div class='overlay'></div>
+  <div class='modal'></div>
 
   <div class="clear"></div>
 
