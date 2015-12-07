@@ -1,5 +1,13 @@
 function callback(data) {
   console.log(data)
+	
+	for(var i = 0; i < data.length; i++) {
+	    additem(data[i]);
+	  }
+	
+	/*additem(data[0])
+	additem(data[1])
+	additem(data[2])*/
 }
 
 
@@ -20,12 +28,15 @@ $box.append($img).append($titleBox)
   $titleBox.append($caption);
 
 $wrapper.append($box);
+
+
+
+
 }
 
+Tabletop.init( { key: "https://docs.google.com/spreadsheets/d/1sdjHtT1GQCaSJ5NJ6PVKxvFyybQTFkjJNU9B2d5uOd0/pubhtml",
+                 callback: callback,
+                 simpleSheet: true } )
 
 
 
-
-  /*Tabletop.init( { key: "https://docs.google.com/spreadsheets/u/1/d/1sdjHtT1GQCaSJ5NJ6PVKxvFyybQTFkjJNU9B2d5uOd0/pubhtml",
-                   callback: callback,
-                   simpleSheet: true } )*/
