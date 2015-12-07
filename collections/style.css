@@ -72,10 +72,10 @@ nav {
 }
 ul {
 	margin: 0;
-  padding: 15px 4px 17px 0;
-  text-align: left;
-  display: inline;
-  list-style: none;
+  	padding: 15px 4px 17px 0;
+  	text-align: left;
+  	display: inline;
+  	list-style: none;
 }
 ul li {
 	margin-right: -4px;
@@ -84,41 +84,45 @@ ul li {
 	font-weight: 100;
 	color: gray;
 	text-transform: capitalize;
-  display: inline-block;
-  position: relative;
-  cursor: pointer;
+  	display: inline-block;
+  	position: relative;
+  	cursor: pointer;
 }
 ul li:hover {
-  color: #fff;
+  	color: #fff;
 }
 ul li ul {
 	width: 150px;
-  padding: 0;
-  box-shadow: none;
-  display: none;
-  opacity: 0;
-  visibility: hidden;
+  	padding: 0;
+  	box-shadow: none;
+  	display: none;
+  	opacity: 0;
+  	visibility: hidden;
 	position: absolute;
-  top: 48px;
-  left: 0;
+  	top: 48px;
+  	left: 0;
 }
 ul li ul li {
 	display: block;
-  background: #555;
-  color: #fff;
-  text-shadow: 0 -1px 0 #000;
+  	background: #555;
+  	color: #fff;
+  	text-shadow: 0 -1px 0 #000;
+  	position: relative; /*move the nav list up a bit, so it's no gap when hover*/
+  	top: -10px;
 }
-ul li ul li:hover { background: #666; }
+ul li ul li:hover { 
+	background: #666; 
+}
 ul li:hover ul {
-  display: block;
-  opacity: 1;
-  visibility: visible;
+  	display: block;
+  	opacity: 1;
+  	visibility: visible;
 }
 .search input{
 	font-size: 0.9em;
 	border-radius: 2px;
-  border: none;
-  padding: 5px;
+  	border: none;
+  	padding: 5px;
 }
 .wrapper {
 	width: 95%;

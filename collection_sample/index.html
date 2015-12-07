@@ -1,0 +1,39 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Collection Example</title>
+  <script src='https://code.jquery.com/jquery-2.1.3.min.js'></script>
+  <script src='http://cykod.github.io/Collection.js/packery.pkgd.min.js'></script>
+  <script src='http://cykod.github.io/Collection.js/tabletop.js'></script>
+  <script src='http://cykod.github.io/Collection.js/collection.js'></script>
+  <link type='text/css' rel='stylesheet' href='style.css' />
+</head>
+
+<body>
+  <div id='filter-bar-wrapper'>
+    <div id='filter-bar'>
+      <input type='text' id='search' placeholder='search'/>
+      //buttons are here
+      <button data-category=""      class='category selected' id="all-button">All</button>
+      <button data-category="BLUE"  class='category'>Blue</button>
+      <button data-category="red"   class='category'>Red</button>
+      <button data-category="purple"   class='category'>Purple</button>
+      <button data-order="category"    class="order">Order by Color</button>
+      <button data-order="title"    class="order">Order by Title</button>
+    </div>
+  </div>
+
+  <ul class='collection'> <!--this ul is the container for the li that is created in the JavaScript -->
+  </ul>
+
+  <div class='overlay'></div>
+  <div class='modal'></div>
+
+
+
+
+  <script src="collection.js"></script>
+</body>
+</html>
